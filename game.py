@@ -1,5 +1,5 @@
 # game.py
-
+# Code has been written based on class discussions. 
 import random
 from dotenv import dotenv_values
 
