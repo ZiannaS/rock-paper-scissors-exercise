@@ -1,15 +1,19 @@
 # game.py
 
 import random
+from dotenv import dotenv_values
+
 # import choice functionality from random module
 # from random import choice 
 
+#Get player name from environment variables
+config = dotenv_values(".env")
+
 # Changing Player one to name
-print("Welcome 'Player One' to my Rock-Paper-Scissors game!")
+print("Welcome " + config['PLAYER_NAME']+" to my Rock-Paper-Scissors game!")
 
 # asking user for an input
 # validating input
-
 
 userChoice = input("Please choose either 'rock', 'paper', or 'scissors': ")
 userChoice.lower() 
