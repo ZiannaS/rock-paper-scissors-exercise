@@ -1,5 +1,5 @@
 # rock-paper-scissors-exercise
-GAME PLAY INSRUCTIONs
+GAME PLAY INSRUCTIONS
 - clone the repository from the link onto your PC/laptop
 - cd into the cloned folder
 - Follow the steps for setting environment variables below.
